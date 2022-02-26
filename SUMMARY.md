@@ -1,6 +1,7 @@
 # Table of contents
 
 * [はじめに](README.md)
+* [導入](dao-ru.md)
 
 ## リンク
 
