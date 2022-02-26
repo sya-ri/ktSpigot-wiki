@@ -31,40 +31,27 @@ repositories {
 }
 
 dependencies {
-    // 1.8.x
-    implementation("dev.s7a:ktSpigot-v1_8:1.0.0-SNAPSHOT")
-
-    // 1.9.x
-    implementation("dev.s7a:ktSpigot-v1_9:1.0.0-SNAPSHOT")
-
-    // 1.10.x
-    implementation("dev.s7a:ktSpigot-v1_10:1.0.0-SNAPSHOT")
-
-    // 1.11.x
-    implementation("dev.s7a:ktSpigot-v1_11:1.0.0-SNAPSHOT")
-
-    // 1.12.x
-    implementation("dev.s7a:ktSpigot-v1_12:1.0.0-SNAPSHOT")
-
-    // 1.13.x
-    implementation("dev.s7a:ktSpigot-v1_13:1.0.0-SNAPSHOT")
-
-    // 1.14.x
-    implementation("dev.s7a:ktSpigot-v1_14:1.0.0-SNAPSHOT")
-
-    // 1.15.x
-    implementation("dev.s7a:ktSpigot-v1_15:1.0.0-SNAPSHOT")
-
-    // 1.16.x
-    implementation("dev.s7a:ktSpigot-v1_16:1.0.0-SNAPSHOT")
-
-    // 1.17.x
-    implementation("dev.s7a:ktSpigot-v1_17:1.0.0-SNAPSHOT")
-
-    // 1.18.x
     implementation("dev.s7a:ktSpigot-v1_18:1.0.0-SNAPSHOT")
 }
 ```
 {% endcode %}
+
+### 対応バージョン
+
+Minecraft のバージョン毎にライブラリが分かれています。使う環境に合わせて変更してください。
+
+| Minecraft | バージョン            |   |
+| --------- | ---------------- | - |
+| `1.18.x`  | `ktSpigot-v1_18` |   |
+| `1.17.x`  | `ktSpigot-v1_17` |   |
+| `1.16.x`  | `ktSpigot-v1_16` |   |
+| `1.15.x`  | `ktSpigot-v1_15` |   |
+| `1.14.x`  | `ktSpigot-v1_14` |   |
+| `1.13.x`  | `ktSpigot-v1_13` |   |
+| `1.12.x`  | `ktSpigot-v1_12` |   |
+| `1.11.x`  | `ktSpigot-v1_11` |   |
+| `1.10.x`  | `ktSpigot-v1_10` |   |
+| `1.9.x`   | `ktSpigot-v1_9`  |   |
+| `1.8.x`   | `ktSpigot-v1_8`  |   |
 {% endtab %}
 {% endtabs %}
