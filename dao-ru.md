@@ -8,10 +8,8 @@
 
 開発中のバージョンを試すことができます。リリースされるまでに変更される可能性があるので注意してください。
 
-<details>
-
-<summary>BungeeCord</summary>
-
+{% tabs %}
+{% tab title="BungeeCord" %}
 {% code title="build.gradle.kts" %}
 ```kts
 repositories {
@@ -23,13 +21,9 @@ dependencies {
 }
 ```
 {% endcode %}
+{% endtab %}
 
-</details>
-
-<details>
-
-<summary>Spigot</summary>
-
+{% tab title="Spigot" %}
 {% code title="build.gradle.kts" %}
 ```kts
 repositories {
@@ -69,8 +63,8 @@ dependencies {
 
     // 1.18.x
     implementation("dev.s7a:ktSpigot-v1_18:1.0.0-SNAPSHOT")
+}
 ```
 {% endcode %}
-
-</details>
-
+{% endtab %}
+{% endtabs %}
