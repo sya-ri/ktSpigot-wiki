@@ -8,22 +8,10 @@
 
 開発中のバージョンを試すことができます。リリースされるまでに変更される可能性があるので注意してください。
 
+#### Spigot
+
 {% tabs %}
-{% tab title="BungeeCord" %}
-{% code title="build.gradle.kts" %}
-```kts
-repositories {
-    maven(url = "https://s01.oss.sonatype.org/content/repositories/snapshots/")
-}
-
-dependencies {
-    implementation("dev.s7a:ktSpigot-bungee:1.0.0-SNAPSHOT")
-}
-```
-{% endcode %}
-{% endtab %}
-
-{% tab title="Spigot" %}
+{% tab title="Gradle (Kotlin)" %}
 {% code title="build.gradle.kts" %}
 ```kts
 repositories {
@@ -35,8 +23,24 @@ dependencies {
 }
 ```
 {% endcode %}
+{% endtab %}
 
-### 対応バージョン
+{% tab title="Gradle (Groovy)" %}
+{% code title="build.gradle" %}
+```groovy
+repositories {
+    maven {
+        url 'https://s01.oss.sonatype.org/content/repositories/snapshots/'
+    }
+}
+
+dependencies {
+    implementation 'dev.s7a:ktSpigot-v1_18:1.0.0-SNAPSHOT'
+}
+```
+{% endcode %}
+{% endtab %}
+{% endtabs %}
 
 Minecraft のバージョン毎にライブラリが分かれています。使う環境に合わせて変更してください。
 
@@ -53,5 +57,37 @@ Minecraft のバージョン毎にライブラリが分かれています。使�
 | `1.10.x`  | `ktSpigot-v1_10` |   |
 | `1.9.x`   | `ktSpigot-v1_9`  |   |
 | `1.8.x`   | `ktSpigot-v1_8`  |   |
+
+#### BungeeCord
+
+{% tabs %}
+{% tab title="Gradle (Kotlin)" %}
+{% code title="build.gradle.kts" %}
+```kts
+repositories {
+    maven(url = "https://s01.oss.sonatype.org/content/repositories/snapshots/")
+}
+
+dependencies {
+    implementation("dev.s7a:ktSpigot-bungee:1.0.0-SNAPSHOT")
+}
+```
+{% endcode %}
+{% endtab %}
+
+{% tab title="Gradle (Groovy)" %}
+{% code title="build.gradle" %}
+```groovy
+repositories {
+    maven {
+        url 'https://s01.oss.sonatype.org/content/repositories/snapshots/'
+    }
+}
+
+dependencies {
+    implementation 'dev.s7a:ktSpigot-bungee:1.0.0-SNAPSHOT'
+}
+```
+{% endcode %}
 {% endtab %}
 {% endtabs %}
