@@ -6,7 +6,7 @@
 
 ### :mag\_right: 分かりやすい
 
-分からないことがあれば API Document や Wiki をみてください。それでも分からなければ [Discord](https://link.s7a.dev/discord) で聞いてください。
+分からないことがあれば API Document や Wiki をみてください。それでも分からなければ Discord で聞いてください。
 
 ### :package: 同梱できる
 
